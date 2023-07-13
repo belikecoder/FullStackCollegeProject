@@ -1,0 +1,72 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-left: 100px;
+  }
+  
+  .product-item {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .h1 h3{
+    color: rgb(232, 168, 84);
+    text-align: center;
+    padding :10px;
+   
+  }
+  
+  .product-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .product-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #a06565;
+  }
+  
+  .product-item button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color:rgb(192, 57, 8);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #74787a;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+ 
+  
+  .rating svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    fill: #f8ce0b;
+  }
+  
+  .dinning_productList{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
