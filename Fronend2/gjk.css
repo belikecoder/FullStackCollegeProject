@@ -1,0 +1,78 @@
+.product1{
+    padding: 10px 8% 120px;
+}
+.main-txt{
+    text-align: center;
+}
+.main-txt h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #388b6f;
+    text-shadow: 0px 1px 1px black;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;    
+    gap: 0.90rem;
+    margin-top: 30px;
+    
+}
+.card-content .row{
+    background: #f3f3f3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row img{
+    width: 50%;
+    display: block;
+    height: 150px;
+   
+}
+.card-body{
+    padding: 10px;
+    padding-left: 5px;
+}
+.card-body h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 550;
+    color: #d12020;
+    text-shadow: 0px 1px 1px black;
+}
+.card-body p{
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    color:rgb(31, 31, 97);
+}
+.card-body h5{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(233, 134, 13);
+}
+.card-body button{
+    width: 130px;
+    height: 30px;
+    font-weight: 550;
+    margin-top: 5px;
+    background: transparent;
+    color: #388b6f;
+    border-radius: 5px;
+    border: 2px solid #388b6f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-body button:hover{
+    background: #388b6f;
+    color: white;
+}
+@media (max-width:920px){
+    .card-content{
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+}
