@@ -1,0 +1,32 @@
+.review{
+  padding: 120px 8% 120px;
+  background: white;
+}
+.review-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+.box{
+  background: #f3f3f3;
+  padding: 35px 45px;
+  height: 50vh;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  text-align: center;
+}
+.img img{
+  width: 100px;
+  border-radius: 100px;
+}
+.review .star i{
+  color: rgba(255, 153, 0);
+  margin-top: 10px;
+}
+@media (max-width:920px){
+  .review-content{
+      grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,68 @@
+/* Form.css */
+/* .form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* Responsive CSS for Form */
+/* @media screen and (max-width: 600px) {
+  .form-container {
+    padding: 10px;
+  }
+} */
+
+/* Additional Responsive CSS for Product Display */
+/* .products {
+  padding: 20px;
+}
+
+.all-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.product1 {
+  width: 100%;
+  max-width: 300px;
+}
+
+.product-info {
+  text-align: center;
+} */
+
+/* ... Your previous CSS code for AddProduct.css ... */

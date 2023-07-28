@@ -1,0 +1,71 @@
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("https://images.pexels.com/photos/168453/pexels-photo-168453.jpeg?cs=srgb&dl=pexels-fwstudio-168453.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.home .main-text{
+  text-align: center;
+  padding: 150px 10% 10px;
+}
+.main-text h1{
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0px 0px 1px black;
+}
+.home .main-text p{
+  color: white;
+  margin-top: 5px;
+  font-size: 20px;
+}
+#btn{
+  width: 200px;
+  height: 36px;
+  font-weight: bold;
+  background: white;
+  color: #39388b;
+  letter-spacing: 1px;
+  border: 2px solid #388b6f;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#btn:hover{
+  background-color: #388b6f;
+  color: white;
+}
+.offers{
+  padding: 10px 8% 20px;
+  background: #f3f3f3;
+}
+.offer-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 0.90rem;
+  margin-top: 30px;
+}
+.offer-content .row{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.offer-content .row i{
+  font-size: 50px;
+  color: #388b6f;
+}
+.offer-content .row h3{
+  margin-left: 5px;
+}
+.offer-content .row p{
+  margin-left: 5px;
+}
+@media (max-width:920px){
+  .offer-content{
+      grid-template-columns: 1fr;
+  }
+}

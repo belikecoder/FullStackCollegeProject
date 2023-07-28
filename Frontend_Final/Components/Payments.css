@@ -1,0 +1,47 @@
+/* PaymentsIconsPage.css */
+.payment-icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .payment-icons img {
+    width: 100px; /* Set the width to 100 pixels for all images inside .payment-icons */
+    height: 100px; /* Optionally, set the height to maintain aspect ratio */
+    margin: 10px;
+    /* Add styles for icon spacing, size, etc. */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles using media queries */
+  @media screen and (max-width: 768px) {
+    .payment-icons img {
+      width: 80px; /* Adjust the width for smaller screens */
+      height: 80px; /* Optionally, adjust the height */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .payment-icons img {
+      width: 60px; /* Adjust the width for even smaller screens */
+      height: 60px; /* Optionally, adjust the height */
+    }
+  
+    h1 {
+      font-size: 20px; /* Adjust the heading font size for smaller screens */
+    }
+  }
+  
